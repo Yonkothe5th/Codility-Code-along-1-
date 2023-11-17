@@ -21,7 +21,7 @@ function solution(A, K) {
     return rotatedArray;
     }
     
-    // Test cases
+    // Test case
     function test() {
     // Testing By Passing An array 
         const testArray1 = [3, 8, 9, 7, 6];
@@ -29,6 +29,6 @@ function solution(A, K) {
         const result1 = solution(testArray1, rotations1);
     
         const expected1 = [9, 7, 6, 3, 8];
-        console.log(result1, "=== ", expected1); // Expected output: true
+        console.log(result1, "=== ", expected1); 
     }
     test();
